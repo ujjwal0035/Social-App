@@ -1,0 +1,87 @@
+.loginPageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 242, 245);
+}
+.SocialApp{
+    font-weight: 600;
+    font-size: 50px;
+    color: #0A66C2;
+}
+.loginBoxWithLabel{
+    /* display: flex; */
+     width: 400px;
+    height: 450px; 
+    border-radius: 20px;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+}
+.subHeading{
+    margin: 10px 0px 10px;
+}
+.loginBox{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loginInput{
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 10px 0 10px;
+}
+.loginInput:focus{
+    outline: none;
+}
+.loginButton{
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 0 10px;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+.loginRegisterButton{
+    width: 40%;
+    align-self: center;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 0 10px;
+}
+.backLogin{
+    align-self: center;
+    margin-left: 60px;
+}
+.Login{
+    color: #1775ee;
+}
+.Login:hover{
+    text-decoration-line: underline;
+}
