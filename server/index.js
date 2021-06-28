@@ -5,6 +5,8 @@ const bodyParser=require("body-parser")
 const dotenv = require("dotenv");
 
 const authRoute = require("./route/auth");
+const usersRoute=require("./route/users");
+const postRoute = require("./route/posts");
 
 dotenv.config();
 
@@ -20,6 +22,8 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 app.use("/api/auth",authRoute);
+app.use("/api/users",usersRoute);
+app.use("/api/posts", postRoute);
 
 app.listen(8800,()=>{
     console.log("app is running on 8800 port")
